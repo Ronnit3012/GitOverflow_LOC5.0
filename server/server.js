@@ -29,5 +29,6 @@ try {
     console.log(`Server Port: ${PORT}`);
   });
 } catch (error) {
-  console.log('Database not connected...')
+  console.log('Database not connected 💥 Shutting down...')
+
 }
