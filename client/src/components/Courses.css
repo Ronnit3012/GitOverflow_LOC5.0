@@ -17,17 +17,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: #dddddd;
-background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  /* background-image: url("./bgimg.png"); */
-  background-repeat: no-repeat;
-  background-size: cover;
-}  
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+    background-color:#aca4fe ;
+    
+  }  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  
 
-
-
+  
+  
