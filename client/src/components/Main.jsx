@@ -19,72 +19,50 @@ const transition = { duration: 2, type: "spring" };
 const Main = () => {
   return (
     <div>
-    <NavbarMain />
-  <div className="main">
-    
-    {/* left name side */}
-    <div className="i-left">
-        <div className="i-name">
-          {/* yahan change hy darkmode ka */}
-          <span>Hy, there</span>
-          <span>LensLyfe</span>
+      <NavbarMain />
+      <div className="main text-center pl-96">
+        {/* left name side */}
+        <div className="i-left">
+          <div className="i-name">
+            {/* yahan change hy darkmode ka */}
+            <span>Hy, there</span>
+            <span>LensLyfe</span>
+          </div>
           <span>Excellence in photography.</span>
+          <Link to="contact" smooth={true} spy={true}>
+            <button className="button i-button">Browse</button>
+          </Link>
         </div>
-        <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Browse</button>
-        </Link>
-      </div>
-      {/* right image side */}
-      <div className="i-right">
-        <img src={Vector1} alt="" />
-        <img src={Vector2} alt="" />
-        {/* <image src={boy} alt="" /> */}
-        {/* animation */}
-        <motion.image
-          initial={{ left: "-36%" }}
-          whileInView={{ left: "-24%" }}
-          transition={transition}
-        //   src={glassesimoji}
-          alt=""
-        />
-        <motion.div
-          initial={{ top: "-4%", left: "74%" }}
-          whileInView={{ left: "68%" }}
-          transition={transition}
-          className="floating-div"
-        >
-          <FloatinDiv image={crown} text1="Web" text2="Developer" /> 
-        </motion.div>
+        {/* right image side */}
+        <div className="i-right">
+          {/* <img src={Vector1} alt="" />
+          <img src={Vector2} alt="" /> */}
+          {/* <image src={boy} alt="" /> */}
+          {/* animation */}
+          {/* <mos.div> */}
 
-        {/* animation */}
-        <motion.div
-          initial={{ left: "9rem", top: "18rem" }}
-          whileInView={{ left: "0rem" }}
-          transition={transition}
-          className="floating-div"
-        >
-          {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv image={thumbup} text1="Best Design" text2="Award" /> 
-        </motion.div>
+          {/* animation */}
+          {/* <motion.sn.div> */}
 
-        <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
-        <div
-          className="blur"
-          style={{
-            background: "#C1F5FF",
-            top: "17rem",
-            width: "21rem",
-            height: "11rem",
-            left: "-9rem",
-          }}
-        ></div>
+          <div
+            className="blur"
+            style={{ background: "rgb(238 210 255)" }}
+          ></div>
+          <div
+            className="blur"
+            style={{
+              background: "#C1F5FF",
+              top: "17rem",
+              width: "21rem",
+              height: "11rem",
+              left: "-9rem",
+            }}
+          ></div>
+        </div>
       </div>
-  </div>
-  <Services/>
-  </div>
-  )
-}
+      {/* <Services /> */}
+    </div>
+  );
+};
 
 export default Main;
-
-

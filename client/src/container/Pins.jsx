@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
 import { Navbar, Feed, PinDetail, CreatePin, Search } from "../components";
 
@@ -19,8 +19,11 @@ const Pins = () => {
       </div>
       <div className="h-full">
         <Routes>
-          <Route path="/" element={<Feed path="random"/>} />
-          <Route path="/category/:categoryId" element={<Feed path={"category"}/>} />
+          <Route path="/" element={<Feed path="random" />} />
+          <Route
+            path="/category/:categoryId"
+            element={<Feed path={"category"} />}
+          />
           <Route
             path="/pin-detail/:pinId"
             element={<PinDetail user={user && user} />}

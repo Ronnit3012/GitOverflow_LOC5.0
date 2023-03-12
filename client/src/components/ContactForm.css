@@ -25,6 +25,7 @@
 	padding-bottom: 30px;
   }
 
+  
   .contact-form {
 	border-top: solid 1px rgb(213, 213, 213);
   }
@@ -46,8 +47,9 @@
 	padding: 15px 30px;
 	margin: 10px 0;
 	font-size: 15px;
-	border: solid 2px #6d64bd;
+	border: solid 2px #121213;
 	border-radius: 10px;
+	background-image:rgb(221, 215, 215);
   }
   
   .contact-form form label {
@@ -95,10 +97,18 @@
 	background-color: #ffffff;
   }
 
-  p{
+  .contact-p{
 	text-align: center;
-	color: black;
+	color: rgb(46, 45, 45);
 	padding-top: 20px;
 	font-weight:bold;
-	font-size: 10px;
+	font-size: 45px;
   }
+
+  .contact
+  {
+	/* background-color:#f7f7f7 ; */
+	background: rgb(234,233,242);
+background: linear-gradient(90deg, rgba(234,233,242,1) 0%, rgba(218,221,238,1) 21%, rgba(140,155,193,1) 49%, rgba(213,195,236,1) 100%);
+  
+}

@@ -10,8 +10,8 @@ import { motion } from "framer-motion";
 
 const Services = () => {
   // context
-//   const theme = useContext(themeContext);
-//   const darkMode = theme.state.darkMode;
+  //   const theme = useContext(themeContext);
+  //   const darkMode = theme.state.darkMode;
 
   // transition
   const transition = {
@@ -24,16 +24,12 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span >Hy There</span>
+        <span>Hy There</span>
         <span>LensLyfe</span>
-        <br/>
-        <spane>
-          Experience the art of photography..
-          
-          
-        </spane>
+        <br />
+        <p>Experience the art of photography..</p>
         {/* <a href={Resume} download> */}
-          {/* <button className="button s-button">Download CV</button> */}
+        {/* <button className="button s-button">Download CV</button> */}
         {/* </a> */}
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
