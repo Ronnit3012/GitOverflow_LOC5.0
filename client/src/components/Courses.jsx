@@ -8,7 +8,6 @@ const Courses = () => {
   return (
     <>
       <SmoothScroll>
-      <SmoothScroll>
         <div className="events-body">
           {/* <Nav /> */}
           <h1 className="courses-h1">COURSES</h1>
